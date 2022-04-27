@@ -1,0 +1,42 @@
+/* $prim-clr:#FFE702; */
+
+*{
+    padding:0;
+    margin:0;
+    /* border-sizing: border-box; */
+  }
+  html {
+    font-size: 100%;
+    scroll-behavior: smooth;
+  } 
+  body{
+    background: #ffe602;
+  }
+  
+  .container{
+    position:absolute;
+    top:50%;
+    left:50%;
+    height:80%;
+    width:80%;
+    transform: translate(-50%, -50%);
+    /* border:2px solid black; */
+    border-radius: 10px;
+  }
+  
+  .logo {
+    transition: 0.4s ease-out;
+  }
+  .logo:hover {
+    margin: -1rem 0 1rem;
+    
+  }
+  
+  img {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    height: 20rem;
+  }
+  
