@@ -301,6 +301,10 @@ ul.nav-list,
     font-size: 2rem;
 }
 
+h3 {
+    font-size: 1rem;
+    text-transform: uppercase;
+}
 /* Video */
 #video-player{
     margin-top: 2rem;
